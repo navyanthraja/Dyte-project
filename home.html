@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home_School Management System</title>
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400;1,500;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Start menu Section -->
+	<div class="container_full navbar bg-light navbar-expand-md sticky-top">
+		<div class="container" style="margin:0 auto;" >
+			<a href="#" class="navbar-brand">
+				<div id="logo_left">
+
+					<img src="img/vir.png" alt="Logo" width="" height="50px">
+					
+				</div>
+			</a>
+
+			<a class="btn navbar-toggler" data-target="#myMenuToggler" data-toggle="collapse">
+				<i class="fa fa-maxcdn" style="font-size:30px;"></i>
+			</a>
+			<div class="collapse navbar-collapse justify-content-end" id="myMenuToggler">
+				<nav id="scrol_py" class="menu1">
+					<ul>
+						<li><a href="admin.html" class="nav-link" >Admin</a></li>
+						<li><a href="#about" class="nav-link" >Teacher</a></li>
+
+						<li><a href="#seirvice" class="nav-link" >Contact Us</a></li>
+						
+
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+<!--end menu Section -->
+<!-- Slider images On -->
+<div class="container_full slid_img">
+	<div class="container">
+		<h1 class="text text-center">School Management System</h1>
+	</div>
+</div>
+
+<!-- Slider images Off -->
+<!-- Login Section On -->
+<div class="container_full loge_bk" style ='margin-top: 0px;'>
+
+	<div class="container text-center pt-5 pb-5">
+		<h2 class="heading"> Admin Login </h2>
+		<div class="box">
+			<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+				<br>
+				<input type="text" name="aname" placeholder="User Name" required class="input form-control"> <br>
+
+				<input type="password" name="apass" placeholder="Password" required class="input form-control"> <br>
+				<button type="submit" class="btn btn-success" name="login"> Login</button>
+			</form>
+
+		</div>
+	</div>
+</div>
+<!-- Login Section Off -->
+
+<div class="container_full bg-dark text-center">
+	<footer>
+		<p class="text-light pt-2 pb-2"> <span class="text-danger"> &copy;</span></p>
+	</footer>
+</div>
+
+
+
+
+
+
+
+	<!-- JavaScript Files -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
